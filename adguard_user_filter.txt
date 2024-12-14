@@ -1,4 +1,4 @@
-﻿!=====BiliBili 用户规则=====
+!=====BiliBili 用户规则=====
 !导航栏左侧条目——全部清除
 t.bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
 bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
@@ -26,10 +26,10 @@ bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-conta
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__btn-panel:last-child > div.upinfo-btn-panel > div.default-btn.new-charge-btn.charge-btn-loaded:first-child
 !视频——播放器下方工具栏右侧——AI小助手、记笔记按钮
 bilibili.com###arc_toolbar_report > div.video-toolbar-right:nth-child(2)
+bilibili.com###playlistToolbar > div.video-toolbar-right:nth-child(2)
 !视频——侧栏——接下来播放视频卡片
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.next-play:first-child > div.video-page-card-small:nth-child(2)
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.rec-list:nth-child(2)
 !空间——右侧栏——全部清除
 space.bilibili.com###app > main.space-main.route_home:last-child > div.space-home:first-child > div.aside:last-child
 space.bilibili.com###app > main.space-main.route_dynamic:last-child > div.space-dynamic:first-child > div.space-dynamic__right:last-child
-@@||www.youtube.com^$important,document
