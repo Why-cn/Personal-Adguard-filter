@@ -30,6 +30,7 @@ bilibili.com###playlistToolbar > div.video-toolbar-right:nth-child(2)
 !视频——侧栏——接下来播放视频卡片
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.next-play:first-child > div.video-page-card-small:nth-child(2)
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.rec-list:nth-child(2)
+bilibili.com###mirror-vdcon > div.playlist-container--right:nth-child(2) > div.recommend-list-container:last-child
 !空间——右侧栏——全部清除
 space.bilibili.com###app > main.space-main.route_home:last-child > div.space-home:first-child > div.aside:last-child
 space.bilibili.com###app > main.space-main.route_dynamic:last-child > div.space-dynamic:first-child > div.space-dynamic__right:last-child
