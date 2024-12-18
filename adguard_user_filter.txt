@@ -18,7 +18,7 @@ bilibili.com###app > div.bili-dyn-home--member:last-child > aside.right:nth-chil
 !动态——中部——发布新动态
 bilibili.com###app > div.bili-dyn-home--member:last-child > main:nth-child(2) > section:first-child
 !动态——中部——站外推广链接
-t.bilibili.com###app > div.bili-dyn-home--member:last-child > main:nth-child(2) > section:last-child > div.bili-dyn-list:last-child > div.bili-dyn-list__items:first-child > div.bili-dyn-list__item:nth-child(6) > div.bili-dyn-item > div.bili-dyn-item__main > div.bili-dyn-item__body:nth-child(3) > div.bili-dyn-content > div.bili-dyn-content__orig > div.bili-dyn-content__orig__additional:last-child
+t.bilibili.com###app > div.bili-dyn-home--member:last-child > main:nth-child(2) > section:last-child > div.bili-dyn-list:last-child > div.bili-dyn-list__items:first-child > div.bili-dyn-list__item > div.bili-dyn-item > div.bili-dyn-item__main > div.bili-dyn-item__body:nth-child(3) > div.bili-dyn-content > div.bili-dyn-content__orig > div.bili-dyn-content__orig__additional:last-child
 !搜索框——BiliBili热搜
 bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
 bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
