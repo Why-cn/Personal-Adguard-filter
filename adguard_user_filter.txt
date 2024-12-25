@@ -38,6 +38,8 @@ bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-conta
 !视频——播放器下方工具栏右侧——AI小助手、记笔记按钮
 bilibili.com###arc_toolbar_report > div.video-toolbar-right:nth-child(2)
 bilibili.com###playlistToolbar > div.video-toolbar-right:nth-child(2)
+!视频——评论区上方——参与活动卡片
+bilibili.com###mirror-vdcon > div.left-container.scroll-sticky:first-child > div.activity-m-v1.act-end:nth-child(7)
 !视频——侧栏——接下来播放视频卡片
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.next-play:first-child > div.video-page-card-small:nth-child(2)
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.rcmd-tab:last-child > div.recommend-list-v1:first-child > div.rec-list:nth-child(2)
