@@ -1,10 +1,10 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
-! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）等。
+! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
 ! Version: 20250103
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
-! =====BiliBili 用户规则=====
+! =====BiliBili 规则：bilibili.com===================================================
 ! 导航栏——左侧条目——全部清除
 bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
 bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
@@ -60,3 +60,9 @@ space.bilibili.com###app > div.header.space-header:nth-child(2) > div.upinfo.hea
 bilibili.com###app > div.opus-detail:nth-child(4) > div.bili-opus-view:first-child > div.opus-module-bottom
 ! 尾部——全部清除
 search.bilibili.com###biliMainFooter
+! 
+! =====百度首页 规则：baidu.com=======================================================
+! Goofy Ahh狗皮膏药
+baidu.com###s_wrap
+! 页脚
+baidu.com###bottom_layer
