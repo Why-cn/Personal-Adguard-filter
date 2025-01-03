@@ -13,18 +13,18 @@
 #### 添加为自定义过滤器（推荐）
 
 1. 打开AdGuard - 设置 - 广告拦截 - 过滤器编辑器 - 已安装的过滤器 - 下方➕ - 导入过滤器
-2. 输入
+2. 复制以下链接并粘贴
    ```url
    https://raw.githubusercontent.com/Why-cn/Personal-Adguard-filter/refs/heads/main/adguard_user_filter.txt
    ```
-3. 点击“添加”
+3. 信不信任无所谓，点击“添加”
 
 ### Adgurad Chrome浏览器扩展程序
 
 1. 点击“Adguard 广告拦截器”扩展程序图标
 2. 点击右上角“⚙️（Adguard 设置）”
 3. 进入“过滤器”页面，点击下方“自定义”右侧的开关为开
-4. 点击“自定义”，点击“添加自定义过滤器”，输入
+4. 点击“自定义”，点击“添加自定义过滤器”，复制以下链接并粘贴
    ```url
    https://raw.githubusercontent.com/Why-cn/Personal-Adguard-filter/refs/heads/main/adguard_user_filter.txt
    ```
