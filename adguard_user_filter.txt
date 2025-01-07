@@ -1,25 +1,20 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
 ! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
-! Version: 20250106
+! Version: 20250107
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
 ! =====BiliBili 规则：bilibili.com===================================================
 ! 导航栏——左侧条目——全部清除
-bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
-bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > ul.left-entry:first-child
-search.bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
+bilibili.com###div.bili-header > div.bili-header__bar > ul.left-entry:first-child
+message.bilibili.com###home_nav > div.bili-header > div.bili-header__bar > ul.left-entry:first-child
 ! 导航栏——右侧条目——大会员
-bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
-bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
-search.bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
+bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
+bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
+message.bilibili.com###home_nav > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > div.vip-wrap:nth-child(2)
 ! 导航栏——右侧条目——用户头像
-bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
-bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
-search.bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
+bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
+bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar > ul.right-entry:last-child > li.v-popover-wrap.header-avatar-wrap:first-child
 ! 动态——左栏——用户
 bilibili.com###app > div.bili-dyn-home--member:last-child > aside.left:first-child
 ! 动态——右栏——全部清除
@@ -33,9 +28,9 @@ t.bilibili.com###app > div.bili-dyn-home--member:last-child > main:nth-child(2) 
 t.bilibili.com###app > div.bili-dyn-home--member:last-child > main:nth-child(2) > section:last-child > div.bili-dyn-list:last-child > div.bili-dyn-list__items:first-child > div.bili-dyn-list__item > div.bili-dyn-item > div.bili-dyn-item__main > div.bili-dyn-item__header:nth-child(2) > div.bili-dyn-item__ornament:nth-child(3)
 ! 搜索框——BiliBili热搜
 bilibili.com###bili-header-container > div.bili-header.fixed-header > div.bili-header__bar.mini-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
-bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
-space.bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar.transparent-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
+bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
 search.bilibili.com###i_cecream > div.search-layout.clearfix > div:nth-child(2) > div.search-header:first-child > div.search-input:first-child > div.search-input-container > div.flex_center > div.search-input-wrap.flex_between:last-child > div.search-panel.search-panel-popover:last-child > div.trending:last-child
+message.bilibili.com###home_nav > div.bili-header > div.bili-header__bar.mini-header > div.center-search-container.offset-center-search:nth-child(2) > div.center-search__bar.is-focus > div.search-panel:last-child > div.trending:last-child
 ! 视频——UP主头像——发消息按钮
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__detail:first-child > div.up-detail > div.up-detail-top:first-child > a.send-msg:last-child
 bilibili.com###mirror-vdcon > div.playlist-container--right:nth-child(2) > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__detail:first-child > div.up-detail > div.up-detail-top:first-child > a.send-msg:last-child
@@ -62,9 +57,10 @@ space.bilibili.com###app > div.header.space-header:nth-child(2) > div.upinfo.hea
 bilibili.com###app > div.opus-detail:nth-child(4) > div.bili-opus-view:first-child > div.opus-module-bottom
 ! 尾部——全部清除
 search.bilibili.com###biliMainFooter
-! 
 ! =====百度首页 规则：baidu.com=======================================================
 ! Goofy Ahh狗皮膏药
 baidu.com###s_wrap
 ! 页脚
 baidu.com###bottom_layer
+bilibili.com###bili-header-container > div.bili-header > div.bili-header__bar.mini-header > ul.left-entry:first-child
+bilibili.com###biliMainHeader > div.bili-header > div.bili-header__bar > ul.left-entry:first-child
