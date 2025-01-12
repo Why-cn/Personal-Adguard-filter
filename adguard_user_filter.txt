@@ -1,6 +1,6 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
 ! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
-! Version: 20250107
+! Version: 20250111
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
@@ -44,7 +44,7 @@ bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-conta
 bilibili.com###arc_toolbar_report > div.video-toolbar-right:nth-child(2)
 bilibili.com###playlistToolbar > div.video-toolbar-right:nth-child(2)
 ! 视频——播放器下方——活动卡片
-bilibili.com###mirror-vdcon > div.left-container.scroll-sticky:first-child > div.activity-m-v1.act-end
+bilibili.com###mirror-vdcon > div.left-container.scroll-sticky:first-child > div.activity-m-v1
 ! 视频——播放器下方——Tag第一位
 bilibili.com###mirror-vdcon > div.left-container.scroll-sticky:first-child > div.video-tag-container:nth-child(5) > div.tag-panel > div.tag.not-btn-tag:first-child
 ! 视频——侧栏——推荐视频
