@@ -1,6 +1,6 @@
-! Title: Why的自用AdGuard用户过滤器规则
+﻿! Title: Why的自用AdGuard用户过滤器规则
 ! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
-! Version: 20250221
+! Version: 20250223
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
@@ -38,6 +38,7 @@ bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-conta
 bilibili.com###mirror-vdcon > div.playlist-container--right:nth-child(2) > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__detail:first-child > div.up-detail > div.up-detail-top:first-child > a.send-msg:last-child
 ! 视频——UP主头像——充电按钮
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__btn-panel:last-child > div.upinfo-btn-panel > div.default-btn.new-charge-btn.charge-btn-loaded:first-child
+bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__btn-panel:last-child > div.upinfo-btn-panel > div.default-btn.old-charge-btn.not-follow-charge-btn:first-child
 bilibili.com###mirror-vdcon > div.playlist-container--right:nth-child(2) > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__btn-panel:last-child > div.upinfo-btn-panel > div.default-btn.new-charge-btn.charge-btn-loaded:first-child
 ! 视频——UP主头像——头像挂件
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--left:first-child > div.up-avatar-wrap.has-pendant > a.up-avatar > div.bili-avatar > div.bili-avatar-pendent-dom:nth-child(2)
