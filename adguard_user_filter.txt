@@ -1,6 +1,6 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
 ! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
-! Version: 20250223
+! Version: 20250303
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
@@ -67,3 +67,5 @@ baidu.com###s_wrap
 baidu.com###s_new_search_guide
 ! 页脚
 baidu.com###bottom_layer
+! LOGO
+baidu.com###lg
