@@ -1,6 +1,6 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
-! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页等。
-! Version: 20250303
+! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页、必应中国版等。
+! Version: 20250308
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
@@ -69,3 +69,15 @@ baidu.com###s_new_search_guide
 baidu.com###bottom_layer
 ! LOGO
 baidu.com###lg
+! =====必应中国版 规则：bing.com/?mkt=zh-CN=======================================================
+! 搜索框——热点
+bing.com###sa_pn_block
+! 搜索框——语音搜索按钮
+bing.com###sb_form > div.mic_cont.icon:nth-child(2)
+! 右上角——手机App相关
+bing.com###id_qrcode
+bing.com###id_mobile
+! 页脚
+bing.com###ICPLicense
+bing.com###ICPFiling
+bing.com###MMAIS
