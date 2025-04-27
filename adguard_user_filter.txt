@@ -1,6 +1,6 @@
 ﻿! Title: Why的自用AdGuard用户过滤器规则
-! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页、必应中国版等。
-! Version: 20250308
+! Description: 自用Adguard用户过滤器规则，适配网页版Bilibili（可搭配ACG助手）、百度首页、必应中国版等。（百度首页已不再更新，换必应了）
+! Version: 20250427
 ! Homepage: https://github.com/Why-cn/Personal-Adguard-filter
 ! License: https://github.com/Why-cn/Personal-Adguard-filter?tab=License-1-ov-file
 ! 
@@ -42,9 +42,11 @@ bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-conta
 bilibili.com###mirror-vdcon > div.playlist-container--right:nth-child(2) > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--right:last-child > div.up-info__btn-panel:last-child > div.upinfo-btn-panel > div.default-btn.new-charge-btn.charge-btn-loaded:first-child
 ! 视频——UP主头像——头像挂件
 bilibili.com###mirror-vdcon > div.right-container:nth-child(2) > div.right-container-inner.scroll-sticky > div.up-panel-container:first-child > div.up-info-container:first-child > div.up-info--left:first-child > div.up-avatar-wrap.has-pendant > a.up-avatar > div.bili-avatar > div.bili-avatar-pendent-dom:nth-child(2)
-! 视频——播放器下方工具栏右侧——AI小助手、记笔记按钮
+! 视频——播放器下方工具栏——AI小助手、记笔记按钮、谁管你多少人正在看
 bilibili.com###arc_toolbar_report > div.video-toolbar-right:nth-child(2)
 bilibili.com###playlistToolbar > div.video-toolbar-right:nth-child(2)
+bilibili.com###bilibili-player > div.bpx-docker.bpx-docker-major > div.bpx-player-container.bpx-state-no-cursor > div.bpx-player-primary-area.__pakku_injected:first-child > div.bpx-player-sending-area:nth-child(2) > div.bpx-player-sending-bar > div.bpx-player-video-info:first-child > div.bpx-player-video-info-online:first-child
+bilibili.com###bilibili-player > div.bpx-docker.bpx-docker-major > div.bpx-player-container.bpx-state-no-cursor > div.bpx-player-primary-area.__pakku_injected:first-child > div.bpx-player-sending-area:nth-child(2) > div.bpx-player-sending-bar > div.bpx-player-video-info:first-child > div.bpx-player-video-info-divide:nth-child(2)
 ! 视频——播放器下方——活动卡片
 bilibili.com###mirror-vdcon > div.left-container.scroll-sticky:first-child > div.activity-m-v1
 ! 视频——播放器下方——Tag第一位
@@ -61,7 +63,7 @@ space.bilibili.com###app > div.header.space-header:nth-child(2) > div.upinfo.hea
 bilibili.com###app > div.opus-detail:nth-child(4) > div.bili-opus-view:first-child > div.opus-module-bottom
 ! 尾部——全部清除
 search.bilibili.com###biliMainFooter
-! =====百度首页 规则：baidu.com=======================================================
+! =====百度首页（不再更新，换必应了） 规则：baidu.com===================================
 ! Goofy Ahh狗皮膏药
 baidu.com###s_wrap
 baidu.com###s_new_search_guide
@@ -69,11 +71,16 @@ baidu.com###s_new_search_guide
 baidu.com###bottom_layer
 ! LOGO
 baidu.com###lg
-! =====必应中国版 规则：bing.com/?mkt=zh-CN=======================================================
-! 搜索框——热点
+! =====游民星空 规则：gamersky.com====================================================
+gamersky.com##div.Mid:nth-child(15) > div.Mid2:last-child > div.Mid2_R:last-child
+gamersky.com##div.fixedCode:last-child
+! =====必应中国版 规则：bing.com/?mkt=zh-CN===========================================
+! 主页——搜索框——热点
 bing.com###sa_pn_block
-! 搜索框——语音搜索按钮
+! 主页——搜索框——语音搜索按钮
 bing.com###sb_form > div.mic_cont.icon:nth-child(2)
+! 主页——设置为默认页
+bing.com###vs_default
 ! 右上角——手机App相关
 bing.com###id_qrcode
 bing.com###id_mobile
