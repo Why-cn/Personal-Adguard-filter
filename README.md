@@ -36,3 +36,6 @@
 
 ## 适配网站列表
 [哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/)（可搭配[ACG助手 - acghelper - 原哔哩哔哩助手 - 原bilibilihelper - 最好用的B站扩展程序](https://acghelper.com/)）
+[百度一下，你就知道](https://www.baidu.com/)（不再更新，换必应了）
+[搜索 - Microsoft 必应](https://www.bing.com/?mkt=zh-CN)
+[游戏攻略秘籍 :: 电脑游戏|电视游戏|掌机游戏攻略秘籍、图文及视频攻略 _ 游民星空 Gamersky.com](https://www.gamersky.com/handbook/)
